@@ -13,14 +13,13 @@
       integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx"
       crossorigin="anonymous"
     />
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css" />
     <script
       src="https://kit.fontawesome.com/9246fe6d1f.js"
       crossorigin="anonymous"
-		></script>
-		<script src="https://unpkg.com/axios/dist/axios.min.js"></script>
-    
-	</head>
+    ></script>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+  </head>
   <body>
     <div class="container">
       <form id="search-city">
@@ -31,8 +30,8 @@
           autocomplete="off"
           autofocus="on"
         />
-				<input type="submit" value="search" />
-				<input type="submit" value="current" id="current-button" />
+        <input type="submit" value="search" />
+        <input type="submit" value="current" id="current-button" />
       </form>
       <br />
       <br />
@@ -50,12 +49,15 @@
           <p class="weather-now">
             <i class="fa-solid fa-sun sun-icon"></i><br />
             <span id="description"></span> <br />
-            <span class="temperature" id = "current-temperature"></span>
+            <span class="temperature" id="current-temperature"></span>
           </p>
         </div>
         <div class="col-6">
           <p class="weather-factors">
-             Wind: <span id="current-wind">3m/s</span> <br />Humidity:<span id= "current-humidity" 30% </ span>
+            Wind: <span id="current-wind">3m/s</span> <br />Humidity:<span
+              id="current-humidity"
+              >30%</span
+            >
           </p>
         </div>
       </div>
@@ -102,6 +104,11 @@
         </div>
       </div>
     </div>
+    <footer>
+      <a href="https://github.com/aga-92/Weather-App" target="_blank"
+        >Open-source code</a
+      >
+    </footer>
     <script src="script.js"></script>
-	</body>
-	</html>
+  </body>
+</html>
