@@ -1,0 +1,59 @@
+.container {
+  width: auto;
+  height: auto;
+  border: 1px solid #53c1da;
+  box-sizing: border-box;
+  margin-top: 20px;
+  font-family: monospace;
+  background-color: #53c1da06;
+}
+#search-city {
+  text-align: center;
+  font-size: 25px;
+  display: block;
+  margin: 0 auto;
+  margin-top: 30px;
+  border-color: #53c1da;
+}
+.date-and-time h2,
+h3 {
+  text-align: center;
+  font-size: 23px;
+  font-weight: bold;
+}
+.sun-icon {
+  font-size: 100px;
+  color: #ffe168;
+}
+.weather-now,
+.weather-factors {
+  text-align: center;
+}
+.weather-factors {
+  margin-top: 20px;
+  font-weight: 500;
+}
+.weather-now span {
+  font-size: 30px;
+  font-weight: 700;
+}
+.col-2 {
+  flex: 1 0 auto;
+  width: 0.666667%;
+  text-align: center;
+}
+.sun-icon-bottom {
+  font-size: 25px;
+  color: #ffe168;
+}
+.sun-rain-icon {
+  font-size: 25px;
+  color: #ffe168;
+}
+.sun-cloud-icon {
+  font-size: 25px;
+  color: #ffe168;
+}
+#description {
+  font-size: 20px;
+}
